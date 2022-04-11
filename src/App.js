@@ -1,9 +1,9 @@
-import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import Contact from "./pages/Contact";
-import Footer from "./components/Footer";
-import FeaturedRest from "./pages/FeaturedRest";
-// import SignUp from "./pages/SignUp";
+import Navbar from "./Components/Navbar";
+import Home from "./Pages/Home";
+import Contact from "./Pages/Contact";
+import Footer from "./Components/Footer";
+import FeaturedRest from "./Pages/FeaturedRest";
+import SignUp from "./Pages/SignUp";
 import "./styles/App.css";
 import "./styles/contact.css";
 import "./styles/footer.css";
@@ -20,8 +20,8 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/restaurants" element={<FeaturedRest />}></Route>
-          {/* <Route exact path="/signup" element={<SignUp />}></Route> */}
-          <Route exact path="/contact" element={<Contact />}></Route>
+          <Route exact path="/SignUp" element={<SignUp />}></Route>
+          <Route exact path="/Contact" element={<Contact />}></Route>
         </Routes>
       </>
       <Footer />

@@ -29,10 +29,10 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contact">Sign Up</NavLink>
+            <NavLink to="/SignUp">Sign Up</NavLink>
           </li>
           <li>
-            <NavLink to="/contact">Contact Us</NavLink>
+            <NavLink to="/Contact">Contact Us</NavLink>
           </li>
         </ul>
       </nav>

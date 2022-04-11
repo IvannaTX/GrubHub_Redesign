@@ -1,6 +1,6 @@
 import React from "react";
-import HomeSlider from "../components/HomeSlider";
-import IconSlider from "../components/IconSlider";
+import HomeSlider from "../Components/HomeSlider";
+import IconSlider from "../Components/IconSlider";
 
 const Home = () => {
   return (
