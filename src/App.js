@@ -1,8 +1,8 @@
 import Navbar from "./components/Navbar";
-import Home from "./Pages/Home";
-import Contact from "./Pages/Contact";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
-import FeaturedRest from "./Pages/FeaturedRest";
+import FeaturedRest from "./pages/FeaturedRest";
 // import SignUp from "./pages/SignUp";
 import "./styles/App.css";
 import "./styles/contact.css";
