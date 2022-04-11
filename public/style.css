@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:black;
+}
+
+#third{
+    color: #ffffff;
+    padding: 10px;
+}
+
+#toggle {
+    color:white;
+}
+.hero-container {
+    height: 620px;
+    width: 100%;
+}
+/* .hero-image{
+​
+       position: static;
+       min-height: 80vh;
+       width: 100%;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       position: static;
+       background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)),
+       url("images/background3.jpg"); 
+​
+}*/
+.Search-Text{
+    color:white;
+    text-align: center;
+}
+.Search-bar button{
+  color:black;
+  justify-content: center;
+  background-color: white; 
+ 
+}
+​
+.Feature-title{
+    color:white;
+    text-align: center;
+}
+​
+.container {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+}
+​
+.card {
+    background: #ff8000;
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+}
+.card-image {
+    height: 200px;
+    margin-bottom: 5px;
+    background-size: cover;
+    background-position: center;
+}
+​
+.food-1{
+    background-image: url('images/americanfood.jpg');
+}
+​
+.food-2 {
+    background-image: url('images/chinesefood.jpg');
+}
+.food-3 {
+    background-image: url('images/italianfood.jpg');
+}
+.food-4 {
+    background-image: url('images/mexicanfood.jpg');
+}
+.food-5 {
+    background-image: url('images/seafood.jpg');
+}
+.food-5 {
+    background-image: url('images/pizza.jpg');
+}
+.food-6 {
+    background-image: url('images/mediterraneanfood.jpg');
+}
+​
+.card h2 {
+    margin-bottom: -5px;
+    padding: 1px;
+    /* text-align: center; */
+    color: white;
+}
+​
+.card h3 {
+    font-size: 15px;
+    margin-bottom: -15px;
+    padding: 5px;
+    /* text-align: center; */
+    color: white;
+}
+​
+ .card:hover {
+     transform: scale(1.03);
+     transition: all 1s ease;
+     cursor: pointer;
+ }

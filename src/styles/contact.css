@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* background-color:#22211e; */
+  font-family: 'Montserrat', sans-ser
+}
+
+/* background image */
+.wrapper {
+  background-image: url('./Images/backgroundimage.jpg');
+  height: 150vh;
+  position: relative;
+  padding-bottom: 15vw;
+
+  /* background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 100%;
+   max-width: 100%; */
+}
+
+/* Contact information */
+
+.hero h1 {
+  color: #fff;
+  text-align: center;
+  font-family: 'Montserrat', sans-ser;
+  font-weight: 1px;
+  font-size: 36pt;
+  /* margin-top:5vw; */
+}
+
+.hero h2 {
+  color: #fff;
+  text-align: center;
+  font-family: 'Montserrat', sans-ser;
+  font-size: 14pt;
+}
+
+/* Contact Form */
+
+input[type=text],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: white;
+}
+
+input[type=tel],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: white;
+}
+
+.email {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: white;
+}
+
+.message {
+  height: 160px;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: white;
+  color: #22211e;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #7ab7f0;
+}
+
+.contact {
+  background-color: #ff8000;
+  opacity: 0.9;
+  top: 25%;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+  font-family: "raleway";
+  font-weight: 3px;
+  color: white;
+  border-radius: 20px;
+  position: relative;
+}
+
+
+
+@media all and (max-width: 480px) {
+  .hero h2 {
+    font-size: 3.5em;
+  }
+
+  .form-name,
+  .email,
+  .message,
+  .submit,
+  .phone {
+    width: 300px;
+  }
+}

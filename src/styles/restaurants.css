@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* background-color:#22211e; */
+  font-family: "Montserrat", sans-ser;
+}
+
+#third {
+  color: #333;
+  padding: 10px;
+}
+
+#toggle {
+  color: #333;
+}
+.rest-wrapper{
+    top: 60%;
+}
+.hero-container {
+  height: 50%;
+  width: 100%;
+  position: relative;
+}
+
+/* .hero-image{
+​
+       position: static;
+       min-height: 80vh;
+       width: 100%;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       position: static;
+       background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.06)),
+       url("images/background3.jpg"); 
+​
+} */
+.Search-Text {
+  color: #333;
+  text-align: center;
+}
+
+.Search-bar button {
+  color: black;
+  justify-content: center;
+  background-color: #333;
+}
+
+​.Feature-title {
+  color: #333;
+  text-align: center;
+}
+
+​.container {
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 80px;
+}
+
+​.card {
+  background: #ff8000;
+  width: 200px;
+  height: 250px;
+  margin: 10px;
+}
+
+.card-image {
+  height: 200px;
+  margin-bottom: 5px;
+  background-size: cover;
+  background-position: center;
+}
+
+​ .food-1 {
+  background-image: url("https://media.istockphoto.com/photos/raw-tuna-steak-and-seafood-on-wooden-tray-picture-id1156011999?k=20&m=1156011999&s=612x612&w=0&h=yaTBdGOP4RIErLfj9HiGspH8Pq36cl1uixcNXsi2gc4=");
+}
+
+​ .food-2 {
+  background-image: url("https://media.istockphoto.com/photos/raw-tuna-steak-and-seafood-on-wooden-tray-picture-id1156011999?k=20&m=1156011999&s=612x612&w=0&h=yaTBdGOP4RIErLfj9HiGspH8Pq36cl1uixcNXsi2gc4=");
+}
+
+.food-3 {
+  background-image: url("https://media.istockphoto.com/photos/raw-tuna-steak-and-seafood-on-wooden-tray-picture-id1156011999?k=20&m=1156011999&s=612x612&w=0&h=yaTBdGOP4RIErLfj9HiGspH8Pq36cl1uixcNXsi2gc4=");
+}
+
+.food-4 {
+  background-image: url("https://media.istockphoto.com/photos/raw-tuna-steak-and-seafood-on-wooden-tray-picture-id1156011999?k=20&m=1156011999&s=612x612&w=0&h=yaTBdGOP4RIErLfj9HiGspH8Pq36cl1uixcNXsi2gc4=");
+}
+
+.food-5 {
+  background-image: url("https://media.istockphoto.com/photos/raw-tuna-steak-and-seafood-on-wooden-tray-picture-id1156011999?k=20&m=1156011999&s=612x612&w=0&h=yaTBdGOP4RIErLfj9HiGspH8Pq36cl1uixcNXsi2gc4=");
+}
+
+.food-5 {
+  background-image: url("https://media.istockphoto.com/photos/raw-tuna-steak-and-seafood-on-wooden-tray-picture-id1156011999?k=20&m=1156011999&s=612x612&w=0&h=yaTBdGOP4RIErLfj9HiGspH8Pq36cl1uixcNXsi2gc4=");
+}
+
+.food-6 {
+  background-image: url("https://media.istockphoto.com/photos/raw-tuna-steak-and-seafood-on-wooden-tray-picture-id1156011999?k=20&m=1156011999&s=612x612&w=0&h=yaTBdGOP4RIErLfj9HiGspH8Pq36cl1uixcNXsi2gc4=");
+}
+
+​ .card h2 {
+  margin-bottom: -5px;
+  padding: 1px;
+  /* text-align: center; */
+  color: #333;
+}
+
+​ .card h3 {
+  font-size: 15px;
+  margin-bottom: -15px;
+  padding: 5px;
+  /* text-align: center; */
+  color: #333;
+}
+
+​ .card:hover {
+  transform: scale(1.03);
+  transition: all 1s ease;
+  cursor: pointer;
+}
