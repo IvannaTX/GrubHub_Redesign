@@ -5,7 +5,7 @@ export const Featured = () => {
   return (
     <>
       <div className="RestaurantFilter">
-        <form>
+        <form className="filter">
           <label> Filter By: </label>{" "}
           <select name="list" id="list">
             <optgroup label="Categories">
@@ -25,12 +25,12 @@ export const Featured = () => {
         return (
           <>
             <div className="rest-container">
-              <div class="card h-100">
+              <div class="card">
                 <div className="card-header">{post.cuisine}</div>
                 <div className="card-body">
                   <h5 className="card-title">{post.restaurantName}</h5>
                   <p className="card-text">{post.address}</p>
-                  <button type="button" class="btn btn-warning">
+                  <button type="button" className="btn">
                     Order Now!
                   </button>
                 </div>

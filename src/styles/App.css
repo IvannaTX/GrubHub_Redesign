@@ -389,4 +389,39 @@ display:none;
   }
 }
 
+/*Fatured page*/
+
+.RestaurantFilter{
+  
+      padding-left:20px;
+      padding: 20px;
+      padding-top: 30%;
+      margin-bottom: 2%;
+      background-image: url("./Images/background3.jpg");
+  }
+  .filter{
+    margin-left: 80%;
+    background-color: #ff8000;
+    padding: 3px;
+    font-size: large;
+  }
+  .btn{
+  background-color: #ff8000;
+  color: #22211e;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+.rest-container{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.card{
+  padding: 20px;
+}
+  .card-header{
+    background-color: #ff8000;
+  }
 
