@@ -1,9 +1,9 @@
 import Navbar from "./Components/Navbar";
-import Home from "./Pages/Home";
-import Contact from "./Pages/Contact";
+import Home from "./diffPages/Home";
+import Contact from "./diffPages/Contact";
 import Footer from "./Components/Footer";
-import FeaturedRest from "./Pages/FeaturedRest";
-import SignUp from "./Pages/SignUp";
+import FeaturedRest from "./diffPages/FeaturedRest";
+import SignUp from "./diffPages/SignUp";
 import "./styles/App.css";
 import "./styles/contact.css";
 import "./styles/footer.css";
