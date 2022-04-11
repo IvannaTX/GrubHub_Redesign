@@ -22,7 +22,7 @@ const Home = () => {
               Visit our featured restaurants page to find a delicious meal that
               fits your fancy.
             </h2>
-            <button className="mid-button" href="/resturants">
+            <button className="mid-button" href="/Featured">
               Go To Featured Resturants Page
             </button>
           </div>
