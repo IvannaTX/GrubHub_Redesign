@@ -1,0 +1,55 @@
+/*Fatured page*/
+
+.RestaurantFilter{
+  
+      padding-left:20px;
+      padding: 20px;
+      padding-top: 30%;
+      /* margin-bottom: 2%; */
+      background-image: url("./Images/background3.jpg");
+  }
+  .filter{
+    margin-left: 80%;
+    background-color: #ff8000;
+    padding: 3px;
+    font-size: large;
+  }
+  .btn{
+  background-color: #ff8000;
+  margin-left: 40%;
+  color: #22211e;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 5cm;
+  }
+.rest-container{
+  background-color: #22211e;
+  /* justify-content: center; */
+  display: grid;
+  grid-template-rows: auto;
+}
+.card{
+  padding: 30px;
+  background-color: black;
+  color: white;
+}
+  .card-header{
+    background-color: #ff8000;
+    font-size:25px;
+    font-weight: bolder;
+    padding-left: 10px;
+  }
+  .card-body{
+     display: grid;
+     grid-template-rows: auto auto auto;
+     text-align: center;
+    /* justify-content: center; */
+    /* flex-wrap:wrap; */
+  }
+  .card-title{
+     padding: 5px;
+     font-size: large;
+  }

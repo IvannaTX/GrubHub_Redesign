@@ -7,6 +7,7 @@ import SignUp from "./diffPages/SignUp";
 import "./styles/App.css";
 import "./styles/contact.css";
 import "./styles/footer.css";
+import "./styles/featured.css";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 

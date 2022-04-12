@@ -1,10 +1,12 @@
 import React from "react";
-import data from "../assests/restaurant.json";
+import data from "../assests/restaurants.json";
+// import Filter from "../Components/filter";
 
 export const Featured = () => {
   return (
     <>
       <div className="RestaurantFilter">
+        {/* <Filter /> */}
         <form className="filter">
           <label> Filter By: </label>{" "}
           <select name="list" id="list">

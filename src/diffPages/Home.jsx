@@ -11,7 +11,9 @@ const Home = () => {
           <img src="https://logos-world.net/wp-content/uploads/2021/08/Grubhub-Symbol.png" />
           <h1>Order food right to your door!</h1>
 
-          <button>Order Now</button>
+          <button className="home-btn">
+            <a href="/Featured">Order Now</a>
+          </button>
         </div>
         <IconSlider />
 
@@ -22,8 +24,8 @@ const Home = () => {
               Visit our featured restaurants page to find a delicious meal that
               fits your fancy.
             </h2>
-            <button className="mid-button" href="/Featured">
-              Go To Featured Resturants Page
+            <button className="mid-button">
+              <a href="/Featured">Go To Featured Restaurants Page</a>
             </button>
           </div>
           <div className="mid-page-image">
