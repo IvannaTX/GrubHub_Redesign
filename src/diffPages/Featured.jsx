@@ -25,14 +25,16 @@ export const Featured = () => {
         return (
           <>
             <div className="rest-container">
-              <div class="card">
-                <div className="card-header">{post.cuisine}</div>
-                <div className="card-body">
-                  <h5 className="card-title">{post.restaurantName}</h5>
-                  <p className="card-text">{post.address}</p>
-                  <button type="button" className="btn">
-                    Order Now!
-                  </button>
+              <div className="row">
+                <div class="card">
+                  <div className="card-header">{post.cuisine}</div>
+                  <div className="card-body">
+                    <h5 className="card-title">{post.restaurantName}</h5>
+                    <p className="card-text">{post.address}</p>
+                    <button type="button" className="btn">
+                      Order Now!
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
